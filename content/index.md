@@ -3,9 +3,18 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
-==========================
+Henriks portfoliosida
+=====================
+![Bild på mig][avatar]{.author-photo}
 
-The source for this page is in `content/index.md`.
+Hej!
 
-This is a sample home page written in markdown with some frontmatter defined.
+Det här är startsidan för min portfoliosida som är byggd
+som en uppgift i
+[kursen PA1436 (design)][kurs]
+vid Blekinge Tekniska Högskola.
+
+Jag som byggt sidan heter Henrik Tunedal och bor i Stockholm.
+
+[avatar]: %assets_url%/img/henrik_avatar.png
+[kurs]: https://dbwebb.se/kurser/design-v3
