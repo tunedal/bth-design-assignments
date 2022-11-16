@@ -16,6 +16,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     src: url("../fonts/raleway/Raleway-Bold.ttf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
 ol, ul {
     padding-left: 1.5em;
 }
@@ -108,7 +110,7 @@ body {
 /* Typografy */
 
 body {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 1.5rem;
     color: $font-color;
     background-color: $background-color;
