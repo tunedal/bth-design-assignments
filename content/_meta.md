@@ -4,5 +4,5 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/tunedal/bth-design-assignments
-      icon: github
+      icon: fab fa-github
 ---

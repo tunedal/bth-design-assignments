@@ -1,3 +1,9 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
@@ -84,6 +90,7 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    padding-top: 0.5rem;
 }
 
 .footer p:first-child {
