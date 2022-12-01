@@ -4,8 +4,8 @@ Description: The list of technologies.
 Template: technologies
 ---
 
-Technologies
-============
+Teknologier
+===========
 <div class="tech-box tech-box-css">
     <a href="%base_url%?technology/css"><span>CSS</span></a>
 </div>
