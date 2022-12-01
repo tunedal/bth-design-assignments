@@ -3,8 +3,22 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <div class="main" role="main">
-        {{ content }}
+    <div class="main technology-page" role="main">
+        <main class="content">
+            {{ content }}
+        </main>
+
+        <nav class="technology-page-sidebar">
+        <ul>
+            <li><a href="css"><span>CSS</span></a>
+            <li><a href="git"><span>Git</span></a>
+            <li><a href="html"><span>HTML</span></a>
+            <li><a href="javascript"><span>JavaScript</span></a>
+            <li><a href="php"><span>PHP</span></a>
+            <li><a href="python"><span>Python</span></a>
+            <li><a href="sqlite"><span>SQLite</span></a>
+            </ul>
+        </nav>
     </div>
 
     {% include 'incl/footer.twig' %}
