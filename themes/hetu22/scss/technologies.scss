@@ -1,3 +1,5 @@
+@import 'variables';
+
 .technologies-page {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -27,6 +29,16 @@
         font-size: x-large;
         border-bottom: 1px solid black;
       }
+    }
+  }
+}
+
+@media (max-width: $small-device-width) {
+  .technologies-page {
+    grid-template-columns: 1fr;
+
+    .tech-box, h1 {
+      grid-column: 1 !important;
     }
   }
 }
