@@ -18,7 +18,6 @@
       text-decoration: none;
       color: black;
       display: block;
-      background: silver;
       border: 1px solid black;
       width: 100%;
       height: 100%;
@@ -30,6 +29,38 @@
         border-bottom: 1px solid black;
       }
     }
+  }
+
+  .tech-box-css {
+    background: #e29292;
+  }
+
+  .tech-box-html {
+    background: #ff6400;
+    grid-column: span 2;
+  }
+
+  .tech-box-js {
+    background: #dcff00;
+    grid-column: span 2;
+  }
+
+  .tech-box-php {
+    background: #856539;
+  }
+
+  .tech-box-python {
+    background: #49d636;
+    grid-column: span 3;
+  }
+
+  .tech-box-git {
+    background: #5253fe;
+  }
+
+  .tech-box-sqlite {
+    background: #c2c2c2;
+    grid-column: span 2;
   }
 }
 
