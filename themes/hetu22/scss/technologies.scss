@@ -1,85 +1,85 @@
 @import 'variables';
 
 .technologies-page {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: max-content;
-  grid-gap: 1rem;
-  margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: max-content;
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
 
-  h1 {
-    grid-column: span 3;
-  }
-
-  .tech-box {
-    font-size: xx-large;
-    line-height: 1.5em;
-
-    a:link, a:visited {
-      padding: 0.5rem;
-
-      display: flex;
-      flex-direction: column;
-
-      text-decoration: none;
-      color: black;
-      border: 1px solid black;
-      width: 100%;
-      height: 100%;
-      box-sizing: border-box;
-
-      span {
-        border-bottom: 1px solid black;
-        color: white;
-        text-shadow:
-                3px 3px 2px black,
-                -1px -1px 0 #000,
-                1px -1px 0 #000,
-                -1px 1px 0 #000,
-                1px 1px 0 #000;
-      }
+    h1 {
+        grid-column: span 3;
     }
-  }
 
-  .tech-box-css {
-    background: #e29292;
-  }
+    .tech-box {
+        font-size: xx-large;
+        line-height: 1.5em;
 
-  .tech-box-html {
-    background: #ff6400;
-    grid-column: span 2;
-  }
+        a:link, a:visited {
+            padding: 0.5rem;
 
-  .tech-box-js {
-    background: #dcff00;
-    grid-column: span 2;
-  }
+            display: flex;
+            flex-direction: column;
 
-  .tech-box-php {
-    background: #856539;
-  }
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
 
-  .tech-box-python {
-    background: #49d636;
-    grid-column: span 3;
-  }
+            span {
+                border-bottom: 1px solid black;
+                color: white;
+                text-shadow:
+                        3px 3px 2px black,
+                        -1px -1px 0 #000,
+                        1px -1px 0 #000,
+                        -1px 1px 0 #000,
+                        1px 1px 0 #000;
+            }
+        }
+    }
 
-  .tech-box-git {
-    background: #5253fe;
-  }
+    .tech-box-css {
+        background: #e29292;
+    }
 
-  .tech-box-sqlite {
-    background: #c2c2c2;
-    grid-column: span 2;
-  }
+    .tech-box-html {
+        background: #ff6400;
+        grid-column: span 2;
+    }
+
+    .tech-box-js {
+        background: #dcff00;
+        grid-column: span 2;
+    }
+
+    .tech-box-php {
+        background: #856539;
+    }
+
+    .tech-box-python {
+        background: #49d636;
+        grid-column: span 3;
+    }
+
+    .tech-box-git {
+        background: #5253fe;
+    }
+
+    .tech-box-sqlite {
+        background: #c2c2c2;
+        grid-column: span 2;
+    }
 }
 
 @media (max-width: $small-device-width) {
-  .technologies-page {
-    grid-template-columns: 1fr;
+    .technologies-page {
+        grid-template-columns: 1fr;
 
-    .tech-box, h1 {
-      grid-column: 1 !important;
+        .tech-box, h1 {
+            grid-column: 1 !important;
+        }
     }
-  }
 }
