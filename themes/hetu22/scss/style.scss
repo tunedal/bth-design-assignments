@@ -20,6 +20,14 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
 
+a:link {
+    color: $link-color;
+}
+
+a:visited {
+    color: $link-visited-color;
+}
+
 ol,
 ul {
     padding-left: 1.5em;
@@ -89,7 +97,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: $title-color;
 }
 
 .title p {
@@ -101,7 +109,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 1px solid ;
     padding-top: 0.5rem;
 }
 
@@ -110,7 +118,7 @@ body {
 }
 
 .footer a {
-    color: #222;
+    color: $footer-text-color;
 }
 
 .footer .social {
