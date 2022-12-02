@@ -9,8 +9,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass hetu22/scss/style.scss hetu22/css/style.css --no-source-map",
-    "style-min": "sass hetu22/scss/style.scss hetu22/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass hetu22/scss/style.scss:hetu22/css/style.css hetu22/scss/style-dark.scss:hetu22/css/style-dark.css --no-source-map --watch",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-light": "sass hetu22/scss/style.scss hetu22/css/style.css --no-source-map",
+    "style-light-min": "sass hetu22/scss/style.scss hetu22/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass hetu22/scss/style-dark.scss hetu22/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass hetu22/scss/style-dark.scss hetu22/css/style-dark.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
