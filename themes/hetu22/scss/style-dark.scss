@@ -1,3 +1,5 @@
+@import 'variables';
+
 $font-color: #eee;
 $font-alternative-color: #fff;
 $accent-color: #ee6c4d;
@@ -12,7 +14,7 @@ $tech-box-text-outline-color: #000;
 $code-border-color: #555;
 $code-background-color: #333;
 
-$link-color: scale-color(#ff6400, $lightness: +20%);
+$link-color: scale-color($base-color2, $lightness: +20%);
 $link-visited-color: scale-color($link-color, $saturation: -50%);
 
 @import 'style';
