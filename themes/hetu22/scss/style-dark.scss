@@ -20,7 +20,7 @@ $link-visited-color: scale-color($link-color, $saturation: -50%);
 @import 'style';
 
 @mixin darken {
-    filter: brightness(.75) contrast(1.1);
+    filter: brightness(0.75) contrast(1.1);
 }
 
 .logo img {
@@ -38,7 +38,7 @@ $link-visited-color: scale-color($link-color, $saturation: -50%);
 
 .tech-box::before {
     @include darken;
-    content: "";
+    content: '';
     background: inherit;
     display: block;
     position: absolute;
