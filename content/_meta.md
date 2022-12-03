@@ -1,5 +1,5 @@
 ---
-Logo: image/fish-clip-art-31.png
+Logo: image/fish-clip-art-31-edited.png
 Tagline: My portfolio.
 Social:
     - title: Länk till sidans GitHub-repo.
