@@ -18,7 +18,7 @@ $pico = new Pico(
 
 // override configuration
 $pico->setConfig(array(
-    'session' => $_SESSION
+    'themeStyle' => ($_GET["theme"] ?? $_SESSION["theme"]) ?? null
 ));
 
 // run application
